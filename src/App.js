@@ -6,9 +6,7 @@ import HomePage from './pages/home/index.js';
 function App() {
 
   return (
-      <div style={{ backgroundImage: "linear-gradient(to right, #18503c 0%, #1d2e4e 100%)" }}>
         <HomePage />
-      </div>
   );
 }
 
