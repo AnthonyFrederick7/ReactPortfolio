@@ -42,6 +42,15 @@ function Landing({ drawerOpen, classes }) {
                                     </button>
                                 </a>
                             )}
+                            <Link
+                                to='/#contacts'
+                                spy='true'
+                                duration={2000}
+                            >
+                                <button className="contactBtn">
+                                    Contact
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
