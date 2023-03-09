@@ -5,7 +5,7 @@ import Skills from '../../components/skills/skills'
 import Contact from '../../components/contact/contact'
 import Projects from '../../components/projects/projects'
 
-export default function HomePage() {
+function HomePage() {
     return (
         <div>
             <Navbar />
@@ -16,3 +16,5 @@ export default function HomePage() {
         </div>
     )
 }
+
+export default HomePage
