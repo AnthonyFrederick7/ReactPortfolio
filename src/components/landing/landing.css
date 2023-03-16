@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Maven Pro", sans-serif;
 }
 
 .landing--container {
@@ -70,10 +71,12 @@
 }
 
 .lcr--content {
+  position: relative;
   width: 45%;
   margin-right: 7rem;
   font-family: var(--primaryFont);
   font-style: normal;
+  z-index: 9;
 }
 
 .lcr--content h6 {
@@ -103,8 +106,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "var(--primaryFont)", sans-serif;
-  z-index: 0;
+  z-index: 9;
 }
 
 .resumeBtn {
@@ -119,13 +121,12 @@
   height: 50px;
   font-family: var(--primaryFont);
   border: 3px solid #15DB95;
-  transition: 500ms ease-out;
+  transition: 300ms ease-out;
+  cursor: pointer;
 }
 
 .resumeBtn:hover {
-  background-color: grey;
-  color: #E3E3E3;
-  border: 3px solid #15DB95;
+  background-color: rgb(29, 29, 29);
 }
 
 .contactBtn {
@@ -140,23 +141,19 @@
   font-weight: 600;
   font-family: var(--primaryFont);
   border: 3px solid #15DB95;
-  transition: 500ms ease-out;
-  }
-  
-  .resumeBtn:hover {
-    background-color: transparent;
-        color: #15DB95;
-        border: 3px solid #15DB95;
+  transition: 300ms ease-out;
+  cursor: pointer;
   }
 
 .contactBtn:hover {
-  background-color: grey;
-  color: #E3E3E3;
+  background-color: transparent;
+  color: #15DB95;
   border: 3px solid #15DB95;
 }
 
 .wave {
   position: absolute;
+  z-index: 6;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -262,9 +259,15 @@
 }
 
 @media (max-width: 600px) {
+  .lcr--content h1 {
+    font-size: 24px !important;
+  }
   .landing--container {
     flex-direction: column;
     justify-content: space-between;
+  }
+  .landing--container-right {
+    padding: 0px 0px !important;
   }
   .landing--img {
     --img-size: 200px;
@@ -293,7 +296,7 @@
     padding: 0 2rem;
   }
   .lcr--content {
-    margin-top: 105%;
+    margin-top: 80%;
     margin-right: initial;
     width: 100%;
   }
@@ -318,8 +321,9 @@
     align-items: center;
     justify-content: center;
   }
-  .lcr-buttonContainer button {
-    margin-top: -20%;
+  .resumeBtn {
+    margin-top: 15px;
+    margin-bottom: 10px;
   }
 }
 
@@ -331,13 +335,13 @@
 
 @media (max-width: 420px) {
   .lcr--content {
-    margin-top: 150%;
+    margin-top: 115%;
   }
 }
 
 @media (max-width: 380px) {
   .lcr--content {
-    margin-top: 180%;
+    margin-top: 135%;
   }
 }
 

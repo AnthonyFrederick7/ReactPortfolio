@@ -2,12 +2,12 @@ import { motion, useMotionValue, useTransform } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
 import "./project.css";
-
+import MusicJunkeez from "../../assets/png/MusicJunkeezShort.png";
 import NDNC from "../../assets/png/NDNC.png";
 import OffnOn from "../../assets/png/OffNOn.png"
 import { ProjectDetails1, ProjectDetails2, ProjectDetails3 } from "./projectDetails.js";
 
-const CardContainer = styled(motion.div)`
+const CardContainer = styled.div`
   width: 285px;
   height: 450px;
   display: flex;
@@ -17,7 +17,6 @@ const CardContainer = styled(motion.div)`
   background: linear-gradient(270deg,rgb(0, 0, 0),#272525);
   color: #fff;
   position: relative;
-  cursor: grab;
 `;
 
 const CircleWrapper = styled.div`
@@ -71,10 +70,10 @@ const ProjectWrapper = styled.div`
   justify-content: center;
 `;
 
-const Project = styled(motion.div)`
+const Project = styled.div`
   width: auto;
   height: 190px;
-  z-index: 99;
+  z-index: 5;
   user-select: none;
   margin-right: 1em;
   margin-left: 1em;
@@ -83,7 +82,6 @@ const Project = styled(motion.div)`
   img {
     width: auto;
     height: 100%;
-    user-select: none;
   }
 `;
 
@@ -95,27 +93,15 @@ export default function Projects() {
 
   return (
     <>
-      <ProjectsHeader >Projects</ProjectsHeader>
+      <ProjectsHeader id='projectPage'>Projects</ProjectsHeader>
     <div className="cardWrapper">
-      <CardContainer
-        className="cardContainer"
-        style={{ x, y, rotateX, rotateY, z: 100 }}
-        drag
-        dragElastic={0.16}
-        dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
-        whileTap={{ cursor: "grabbing" }}
-      >
+      <CardContainer className="cardContainer">
         <TopContainer>
           <CircleWrapper>
             <Circle />
           </CircleWrapper>
           <ProjectWrapper>
-            <Project
-              style={{ x, y, rotateX, rotateY, rotate: "-0deg", z: 100000 }}
-              drag
-              dragElastic={0.12}
-              whileTap={{ cursor: "grabbing" }}
-            >
+            <Project>
               <img src={NDNC} style={{ width: "100%", height: "50%", marginTop: "2.5em" }} />
             </Project>
           </ProjectWrapper>
@@ -125,26 +111,14 @@ export default function Projects() {
         </div>
       </CardContainer>
 
-      <CardContainer
-        className="cardContainer"
-        style={{ x, y, rotateX, rotateY, z: 100 }}
-        drag
-        dragElastic={0.16}
-        dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
-        whileTap={{ cursor: "grabbing" }}
-      >
+      <CardContainer  className="cardContainer">
         <TopContainer>
           <CircleWrapper>
             <Circle />
           </CircleWrapper>
           <ProjectWrapper>
-            <Project
-              style={{ x, y, rotateX, rotateY, rotate: "-0deg", z: 100000 }}
-              drag
-              dragElastic={0.12}
-              whileTap={{ cursor: "grabbing" }}
-            >
-              <img src={OffnOn} style={{ width: "100%", height: "65%", marginTop: "1.75em" }} />
+            <Project>
+              <img src={MusicJunkeez} style={{ width: "100%", height: "65%", marginTop: "1.75em" }} />
             </Project>
           </ProjectWrapper>
         </TopContainer>
@@ -153,26 +127,14 @@ export default function Projects() {
         </div>
       </CardContainer>
 
-      <CardContainer
-        className="cardContainer"
-        style={{ x, y, rotateX, rotateY, z: 100 }}
-        drag
-        dragElastic={0.16}
-        dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
-        whileTap={{ cursor: "grabbing" }}
-      >
+      <CardContainer>
         <TopContainer>
           <CircleWrapper>
             <Circle />
           </CircleWrapper>
           <ProjectWrapper>
-            <Project
-              style={{ x, y, rotateX, rotateY, rotate: "-0deg", z: 100000 }}
-              drag
-              dragElastic={0.12}
-              whileTap={{ cursor: "grabbing" }}
-            >
-              <img src={NDNC} style={{ width: "100%", height: "50%", marginTop: "2.5em" }} />
+            <Project>
+              <img src={OffnOn} style={{ width: "100%", height: "70%", marginTop: "1.75em" }} />
             </Project>
           </ProjectWrapper>
         </TopContainer>

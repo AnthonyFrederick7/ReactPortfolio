@@ -11,6 +11,7 @@
   background: linear-gradient(270deg,rgb(0, 0, 0),#272525);
   border-bottom: 2px #15DB95 solid;
   filter: opacity(85%);
+  font-family: "Maven Pro", sans-serif;
 }
 
 .navbar--container {
@@ -264,10 +265,6 @@
 
 #projects {
   margin-right: 5%;
-}
-
-#skills {
-  margin-left: 7%;
 }
 
 .navSocialLink a {

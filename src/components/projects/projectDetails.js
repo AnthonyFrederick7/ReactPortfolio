@@ -91,10 +91,10 @@ export function ProjectDetails2(props) {
       <SmallText>Off N On is a ticketing system buit to assist with Tech problems.</SmallText>
       <Marginer direction="vertical" margin="2.8em" />
       <SpacedHorizontalContainer>
-      <a href="https://limitless-castle-65696.herokuapp.com/" target={"__blank"} style={{marginBottom: "15px"}}>
+      <a href="http://music-junkeez.herokuapp.com/" target={"__blank"} style={{marginBottom: "15px"}}>
       <LinkButton><FaPlay style={{marginTop: ".2em", marginLeft: ".1em", fontSize: "18px"}}/></LinkButton>
         </a>
-        <a href="https://github.com/rxtATX/OffNOn" target={"__blank"}  style={{marginBottom: "15px"}}>
+        <a href="https://github.com/jminor90/music-junkeez" target={"__blank"}  style={{marginBottom: "15px"}}>
         <RepoButton><FaCode style={{marginTop: ".2em", marginRightt: ".1em", fontSize: "20px"}}/></RepoButton>
         </a>
       </SpacedHorizontalContainer>
@@ -105,8 +105,7 @@ export function ProjectDetails2(props) {
 export function ProjectDetails3(props) {
   return (
     <DetailsContainer>
-      <SmallText>New Day New City (NDNC) is a traveler oriented webpage. Built for users to easily view hotels, restaurants and attractions
-                        within a searched city.</SmallText>
+      <SmallText>Off N On is a ticketing system buit to assist with Tech problems.</SmallText>
       <Marginer direction="vertical"/>
       <SpacedHorizontalContainer>
       <a href="https://anthonyfrederick7.github.io/New-Day-New-City/" target={"__blank"}  style={{marginBottom: "15px"}}>

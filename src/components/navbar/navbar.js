@@ -56,17 +56,17 @@ function NavbarUI({ classes, handleDrawerOpen, handleDrawerClose, open }) {
                 </div>
                 </div>
                 
-                <div id="home" className='navh3'>
+                <div className='navh3'>
                     <a href="#home">Home</a>
                 </div>
                 <div id="projects" className='navh3'>
-                    <a href="#projects">Projects</a>
+                    <a href="#projectPage">Projects</a>
                 </div>
-                <div id="skills" className='navh3'>
-                    <a href="#">Skills</a>
+                <div className='navh3'>
+                    <a href="#skills">Skills</a>
                 </div>                
-                <div id="contact" className='navh3'>
-                    <a href="#">Contact</a>
+                <div className='navh3'>
+                    <a href="#contact">Contact</a>
                 </div>
 
                 <div className="iconContainer">

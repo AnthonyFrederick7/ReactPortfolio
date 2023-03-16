@@ -11,7 +11,7 @@ function Skills() {
     }
 
     return (
-        <div className="skills" style={{ backgroundImage: "linear-gradient(to right, #18503c 0%, #1d2e4e 100%)" }}>
+        <div className="skills" id="skills" style={{ backgroundImage: "linear-gradient(to right, #18503c 0%, #1d2e4e 100%)" }}>
             <div className="skillsHeader">
                 <h2 style={{ color: '#15DB95' }}>Skills</h2>
             </div>

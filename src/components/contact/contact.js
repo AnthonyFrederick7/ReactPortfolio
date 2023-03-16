@@ -60,7 +60,7 @@ function Contact() {
       <textarea name="message" type="text" id="input-message" placeholder="Enter a message"/>
       </div>
 
-        <button type="submit" value="Submit" id="input-submit">Submit</button>
+        <button type="submit" value="Send" id="input-submit">Submit</button>
         
         <div className='row' style={{color: 'white'}}>{ result ? <Result /> : null }</div>
     </form>

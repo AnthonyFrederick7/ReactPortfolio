@@ -6,7 +6,7 @@ function Landing({ drawerOpen, classes }) {
 
 
     return (
-        <div className='landing' id='#home' style={{ backgroundImage: "linear-gradient(to right, #18503c 0%, #1d2e4e 100%)" }}>
+        <div className='landing' id='home' style={{ backgroundImage: "linear-gradient(to right, #18503c 0%, #1d2e4e 100%)" }}>
             <div className='landing--container'>
                 <img
                     src={homeData.image}
@@ -42,15 +42,11 @@ function Landing({ drawerOpen, classes }) {
                                     </button>
                                 </a>
                             )}
-                            <Link
-                                to='/#contacts'
-                                spy='true'
-                                duration={2000}
-                            >
-                                <button className="contactBtn">
-                                    Contact
-                                </button>
-                            </Link>
+                                <a href='#contact'>
+                                    <button className="contactBtn">
+                                        Contact
+                                    </button>
+                                </a>
                         </div>
                     </div>
                 </div>
