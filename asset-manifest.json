@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.bb794b46.css",
-    "main.js": "/ReactPortfolio/static/js/main.cf60bd5d.js",
+    "main.css": "/ReactPortfolio/static/css/main.778721d2.css",
+    "main.js": "/ReactPortfolio/static/js/main.cdd2aef8.js",
     "static/js/787.e29dc422.chunk.js": "/ReactPortfolio/static/js/787.e29dc422.chunk.js",
     "static/media/BestermindRegular.ttf": "/ReactPortfolio/static/media/BestermindRegular.e58a192233afb30a6a59.ttf",
     "static/media/NDNC.png": "/ReactPortfolio/static/media/NDNC.8158793e384885ed68c1.png",
+    "static/media/MusicJunkeezShort.png": "/ReactPortfolio/static/media/MusicJunkeezShort.1edb05ea0371c3040c15.png",
     "static/media/OffNOn.png": "/ReactPortfolio/static/media/OffNOn.029b2d88d5cc420b38f1.png",
     "static/media/react.svg": "/ReactPortfolio/static/media/react.2b6a071759fcdac074f4dcad26eef347.svg",
     "static/media/mysql.svg": "/ReactPortfolio/static/media/mysql.f9e45d29a8d636bf8f78c9c346b7a7ce.svg",
@@ -27,12 +28,12 @@
     "static/media/markdown.svg": "/ReactPortfolio/static/media/markdown.62e50cf06ec416c71d7b81a472d33f21.svg",
     "static/media/figma.svg": "/ReactPortfolio/static/media/figma.1cd446080336901b93673164fe5bdcf2.svg",
     "index.html": "/ReactPortfolio/index.html",
-    "main.bb794b46.css.map": "/ReactPortfolio/static/css/main.bb794b46.css.map",
-    "main.cf60bd5d.js.map": "/ReactPortfolio/static/js/main.cf60bd5d.js.map",
+    "main.778721d2.css.map": "/ReactPortfolio/static/css/main.778721d2.css.map",
+    "main.cdd2aef8.js.map": "/ReactPortfolio/static/js/main.cdd2aef8.js.map",
     "787.e29dc422.chunk.js.map": "/ReactPortfolio/static/js/787.e29dc422.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb794b46.css",
-    "static/js/main.cf60bd5d.js"
+    "static/css/main.778721d2.css",
+    "static/js/main.cdd2aef8.js"
   ]
 }
