@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.778721d2.css",
-    "main.js": "/ReactPortfolio/static/js/main.cdd2aef8.js",
+    "main.css": "/ReactPortfolio/static/css/main.47050acf.css",
+    "main.js": "/ReactPortfolio/static/js/main.ed52ad89.js",
     "static/js/787.e29dc422.chunk.js": "/ReactPortfolio/static/js/787.e29dc422.chunk.js",
+    "static/media/PortfolioPicPCNoBG.png": "/ReactPortfolio/static/media/PortfolioPicPCNoBG.91217a2b6178c8032e24.png",
     "static/media/BestermindRegular.ttf": "/ReactPortfolio/static/media/BestermindRegular.e58a192233afb30a6a59.ttf",
     "static/media/NDNC.png": "/ReactPortfolio/static/media/NDNC.8158793e384885ed68c1.png",
     "static/media/MusicJunkeezShort.png": "/ReactPortfolio/static/media/MusicJunkeezShort.1edb05ea0371c3040c15.png",
@@ -28,12 +29,12 @@
     "static/media/markdown.svg": "/ReactPortfolio/static/media/markdown.62e50cf06ec416c71d7b81a472d33f21.svg",
     "static/media/figma.svg": "/ReactPortfolio/static/media/figma.1cd446080336901b93673164fe5bdcf2.svg",
     "index.html": "/ReactPortfolio/index.html",
-    "main.778721d2.css.map": "/ReactPortfolio/static/css/main.778721d2.css.map",
-    "main.cdd2aef8.js.map": "/ReactPortfolio/static/js/main.cdd2aef8.js.map",
+    "main.47050acf.css.map": "/ReactPortfolio/static/css/main.47050acf.css.map",
+    "main.ed52ad89.js.map": "/ReactPortfolio/static/js/main.ed52ad89.js.map",
     "787.e29dc422.chunk.js.map": "/ReactPortfolio/static/js/787.e29dc422.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.778721d2.css",
-    "static/js/main.cdd2aef8.js"
+    "static/css/main.47050acf.css",
+    "static/js/main.ed52ad89.js"
   ]
 }
