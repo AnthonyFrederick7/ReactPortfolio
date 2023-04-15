@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
 import { homeData } from '../../data/homeData';
 import './landing.css';
+import portfolioPic from '../../assets/png/PortfolioPicPCNoBG.png';
 
 function Landing({ drawerOpen, classes }) {
 
@@ -9,7 +9,7 @@ function Landing({ drawerOpen, classes }) {
         <div className='landing' id='home' style={{ backgroundImage: "linear-gradient(to right, #18503c 0%, #1d2e4e 100%)" }}>
             <div className='landing--container'>
                 <img
-                    src={homeData.image}
+                    src= {portfolioPic}
                     alt=''
                     className='landing--img'
                     style={{
